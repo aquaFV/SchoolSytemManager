@@ -19,7 +19,12 @@ find_package(Qt6 COMPONENTS
 add_executable(untitled1 main.cpp
         Managers/StudentManager/StudentClass.h
         Managers/SortingManager/SortingManager.h
-        Managers/SortingManager/SortingManager.cpp)
+        Managers/SortingManager/SortingManager.cpp
+        Managers/InterfaceManager/InterfaceManager.cpp
+        Managers/InterfaceManager/InterfaceManager.h
+        Managers/SpreadSheetManager/SpreadSheetManager.h
+        Managers/SpreadSheetManager/SpreadSheetManager.cpp
+)
 target_link_libraries(untitled1
         Qt::Core
         Qt::Gui
